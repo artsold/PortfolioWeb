@@ -1,0 +1,27 @@
+// Widescreens
+@include mediaXl {
+
+}
+
+// Desktop & Laptops
+@include mediaLg {
+    
+}
+
+// Tablets
+@include mediaMd {
+    
+}
+
+// Smartphones
+@include mediaSm {
+    main {
+        align-items: center;
+        text-align: center; 
+
+        .lg-heading {
+            line-height: 1;
+            margin-bottom: 1rem;
+        }
+    }
+}
