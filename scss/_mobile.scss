@@ -10,11 +10,6 @@
 
 // Tablets
 @include mediaMd {
-    
-}
-
-// Smartphones
-@include mediaSm {
     main {
         align-items: center;
         text-align: center; 
@@ -23,5 +18,10 @@
             line-height: 1;
             margin-bottom: 1rem;
         }
-    }
+    }    
+}
+
+// Smartphones
+@include mediaSm {
+
 }
